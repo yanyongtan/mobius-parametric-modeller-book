@@ -1,0 +1,1184 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Chapter 6: Examples · Möbius Modeller</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+     a=s.createElement(o),m=s.getElementsByTagName(o)[0];
+     a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-132688385-1', 'auto');
+</script>
+
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-headings/numbered-headings-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-image-captions/image-captions.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fancybox/jquery.fancybox.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fancybox/jquery.fancybox-buttons.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="6.2.0.example1.html" />
+    
+    
+    <link rel="prev" href="../chapter5/5.2.inline.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Möbius Modeller</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../front/overview.html">
+            
+                <a href="../front/overview.html">
+            
+                    
+                        <b>1.2.</b>
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../chapter1/1.0.overview.html">
+            
+                <a href="../chapter1/1.0.overview.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    Chapter 1: Möbius Interface
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../chapter1/1.1.gallery.html">
+            
+                <a href="../chapter1/1.1.gallery.html">
+            
+                    
+                        <b>2.1.1.</b>
+                    
+                    Gallery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../chapter1/1.2.dashboard.html">
+            
+                <a href="../chapter1/1.2.dashboard.html">
+            
+                    
+                        <b>2.1.2.</b>
+                    
+                    Dashboard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../chapter1/1.3.0.flowchart.html">
+            
+                <a href="../chapter1/1.3.0.flowchart.html">
+            
+                    
+                        <b>2.1.3.</b>
+                    
+                    Flowchart
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.3.1" data-path="../chapter1/1.3.1.start.html">
+            
+                <a href="../chapter1/1.3.1.start.html">
+            
+                    
+                        <b>2.1.3.1.</b>
+                    
+                    'Start' Node
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.2" data-path="../chapter1/1.3.2.node.html">
+            
+                <a href="../chapter1/1.3.2.node.html">
+            
+                    
+                        <b>2.1.3.2.</b>
+                    
+                    Modelling Node
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.3" data-path="../chapter1/1.3.3.splitmerge.html">
+            
+                <a href="../chapter1/1.3.3.splitmerge.html">
+            
+                    
+                        <b>2.1.3.3.</b>
+                    
+                    Diverging/Merging
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.4" data-path="../chapter1/1.3.4.return.html">
+            
+                <a href="../chapter1/1.3.4.return.html">
+            
+                    
+                        <b>2.1.3.4.</b>
+                    
+                    'End' Node
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../chapter1/1.4.3dviewer.html">
+            
+                <a href="../chapter1/1.4.3dviewer.html">
+            
+                    
+                        <b>2.1.4.</b>
+                    
+                    Visualisation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../chapter1/1.5.helpNdebug.html">
+            
+                <a href="../chapter1/1.5.helpNdebug.html">
+            
+                    
+                        <b>2.1.5.</b>
+                    
+                    Help and Debugging
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="../chapter1/1.6.function.html">
+            
+                <a href="../chapter1/1.6.function.html">
+            
+                    
+                        <b>2.1.6.</b>
+                    
+                    Function Creation
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../chapter2/2.0.overview.html">
+            
+                <a href="../chapter2/2.0.overview.html">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    Chapter 2: Geo-Info Data Model
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../chapter2/2.1.geometry.html">
+            
+                <a href="../chapter2/2.1.geometry.html">
+            
+                    
+                        <b>2.2.1.</b>
+                    
+                    Geometry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../chapter2/2.2.topology.html">
+            
+                <a href="../chapter2/2.2.topology.html">
+            
+                    
+                        <b>2.2.2.</b>
+                    
+                    Topology
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../chapter2/2.3.attributes.html">
+            
+                <a href="../chapter2/2.3.attributes.html">
+            
+                    
+                        <b>2.2.3.</b>
+                    
+                    Attributes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../chapter3/3.1.overview.html">
+            
+                <a href="../chapter3/3.1.overview.html">
+            
+                    
+                        <b>2.3.</b>
+                    
+                    Chapter 3: Öbi Language
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../chapter3/3.2.elements.html">
+            
+                <a href="../chapter3/3.2.elements.html">
+            
+                    
+                        <b>2.3.1.</b>
+                    
+                    Elements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../chapter3/3.3.hierarchy.html">
+            
+                <a href="../chapter3/3.3.hierarchy.html">
+            
+                    
+                        <b>2.3.2.</b>
+                    
+                    Hierarchy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../chapter3/3.4.controlstatements.html">
+            
+                <a href="../chapter3/3.4.controlstatements.html">
+            
+                    
+                        <b>2.3.3.</b>
+                    
+                    Control Statements
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="../chapter3/3.5.syntax.html">
+            
+                <a href="../chapter3/3.5.syntax.html">
+            
+                    
+                        <b>2.3.4.</b>
+                    
+                    Syntax
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" data-path="../chapter3/3.6.list.html">
+            
+                <a href="../chapter3/3.6.list.html">
+            
+                    
+                        <b>2.3.5.</b>
+                    
+                    List
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../chapter4/4.1.overview.html">
+            
+                <a href="../chapter4/4.1.overview.html">
+            
+                    
+                        <b>2.4.</b>
+                    
+                    Chapter 4: Modelling Functions
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="../chapter4/4.2.mathstructure.html">
+            
+                <a href="../chapter4/4.2.mathstructure.html">
+            
+                    
+                        <b>2.4.1.</b>
+                    
+                    Mathematical Structures
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="../chapter4/01_query.html">
+            
+                <a href="../chapter4/01_query.html">
+            
+                    
+                        <b>2.4.2.</b>
+                    
+                    Query
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3" data-path="../chapter4/02_make.html">
+            
+                <a href="../chapter4/02_make.html">
+            
+                    
+                        <b>2.4.3.</b>
+                    
+                    Make
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.4" data-path="../chapter4/03_modify.html">
+            
+                <a href="../chapter4/03_modify.html">
+            
+                    
+                        <b>2.4.4.</b>
+                    
+                    Modify
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.5" data-path="../chapter4/04_isect.html">
+            
+                <a href="../chapter4/04_isect.html">
+            
+                    
+                        <b>2.4.5.</b>
+                    
+                    Isect
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.6" data-path="../chapter4/05_calc.html">
+            
+                <a href="../chapter4/05_calc.html">
+            
+                    
+                        <b>2.4.6.</b>
+                    
+                    Calculate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.7" data-path="../chapter4/06_util.html">
+            
+                <a href="../chapter4/06_util.html">
+            
+                    
+                        <b>2.4.7.</b>
+                    
+                    Util
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.8" data-path="../chapter4/07_pattern.html">
+            
+                <a href="../chapter4/07_pattern.html">
+            
+                    
+                        <b>2.4.8.</b>
+                    
+                    Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.9" data-path="../chapter4/08_virtual.html">
+            
+                <a href="../chapter4/08_virtual.html">
+            
+                    
+                        <b>2.4.9.</b>
+                    
+                    Virtual
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.10" data-path="../chapter4/09_list.html">
+            
+                <a href="../chapter4/09_list.html">
+            
+                    
+                        <b>2.4.10.</b>
+                    
+                    List
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.11" data-path="../chapter4/4.11.user.html">
+            
+                <a href="../chapter4/4.11.user.html">
+            
+                    
+                        <b>2.4.11.</b>
+                    
+                    User
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../chapter5/5.1.overview.html">
+            
+                <a href="../chapter5/5.1.overview.html">
+            
+                    
+                        <b>2.5.</b>
+                    
+                    Chapter 5: Inline Expressions
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../chapter5/5.2.inline.html">
+            
+                <a href="../chapter5/5.2.inline.html">
+            
+                    
+                        <b>2.5.1.</b>
+                    
+                    Inline
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.6" data-path="6.1.overview.html">
+            
+                <a href="6.1.overview.html">
+            
+                    
+                        <b>2.6.</b>
+                    
+                    Chapter 6: Examples
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.6.1" data-path="6.2.0.example1.html">
+            
+                <a href="6.2.0.example1.html">
+            
+                    
+                        <b>2.6.1.</b>
+                    
+                    Example 1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.6.1.1" data-path="6.2.1.startnode.html">
+            
+                <a href="6.2.1.startnode.html">
+            
+                    
+                        <b>2.6.1.1.</b>
+                    
+                    Start Node
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.1.2" data-path="6.2.2.node1.html">
+            
+                <a href="6.2.2.node1.html">
+            
+                    
+                        <b>2.6.1.2.</b>
+                    
+                    Node 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.1.3" data-path="6.2.3.node2a.html">
+            
+                <a href="6.2.3.node2a.html">
+            
+                    
+                        <b>2.6.1.3.</b>
+                    
+                    Node 2a
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.1.4" data-path="6.2.4.node2b.html">
+            
+                <a href="6.2.4.node2b.html">
+            
+                    
+                        <b>2.6.1.4.</b>
+                    
+                    Node 2b
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.1.5" data-path="6.2.5.node2c.html">
+            
+                <a href="6.2.5.node2c.html">
+            
+                    
+                        <b>2.6.1.5.</b>
+                    
+                    Node 2c
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.2" data-path="6.3.0.example2.html">
+            
+                <a href="6.3.0.example2.html">
+            
+                    
+                        <b>2.6.2.</b>
+                    
+                    Example 2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.6.2.1" data-path="6.3.1.startnode.html">
+            
+                <a href="6.3.1.startnode.html">
+            
+                    
+                        <b>2.6.2.1.</b>
+                    
+                    Start Node
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.2.2" data-path="6.3.2.node1.html">
+            
+                <a href="6.3.2.node1.html">
+            
+                    
+                        <b>2.6.2.2.</b>
+                    
+                    Node 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.2.3" data-path="6.3.3.userfunction.html">
+            
+                <a href="6.3.3.userfunction.html">
+            
+                    
+                        <b>2.6.2.3.</b>
+                    
+                    User-Defined Function
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.2.4" data-path="6.3.4.node2.html">
+            
+                <a href="6.3.4.node2.html">
+            
+                    
+                        <b>2.6.2.4.</b>
+                    
+                    Node 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.3" data-path="6.4.0.example3.html">
+            
+                <a href="6.4.0.example3.html">
+            
+                    
+                        <b>2.6.3.</b>
+                    
+                    Example 3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.6.3.1" data-path="6.4.1.startnode.html">
+            
+                <a href="6.4.1.startnode.html">
+            
+                    
+                        <b>2.6.3.1.</b>
+                    
+                    Start Node
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.3.2" data-path="6.4.2.userfunction.html">
+            
+                <a href="6.4.2.userfunction.html">
+            
+                    
+                        <b>2.6.3.2.</b>
+                    
+                    User-Defined Function
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.3.3" data-path="6.4.3.node1.html">
+            
+                <a href="6.4.3.node1.html">
+            
+                    
+                        <b>2.6.3.3.</b>
+                    
+                    Node 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.3.4" data-path="6.4.4.node2.html">
+            
+                <a href="6.4.4.node2.html">
+            
+                    
+                        <b>2.6.3.4.</b>
+                    
+                    Node 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../back/appendix.html">
+            
+                <a href="../back/appendix.html">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    Appendix
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Chapter 6: Examples</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p><style>
+body {
+  counter-reset: chapter 2 h1 5 h2 0 h3 0 h4 0 h5 0 h6 0;
+}
+</style></p>
+<h1 id="chapter-6-examples">Chapter 6: Examples</h1>
+<p>This chapter contains some examples of models created in M&#xF6;bius Modeller and discusses the thought process behind them. </p>
+<p>The explanations given here will be relating to the model and why certain values are used. However, this section will not discuss how each function works or what to input into each argument; for more information on those, please see Chapter 4, or mouse over the function in the side bar or click on the help icon (?) beside the function. </p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../chapter5/5.2.inline.html" class="navigation navigation-prev " aria-label="Previous page: Inline">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="6.2.0.example1.html" class="navigation navigation-next " aria-label="Next page: Example 1">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Chapter 6: Examples","level":"2.6","depth":1,"next":{"title":"Example 1","level":"2.6.1","depth":2,"path":"contents/chapter6/6.2.0.example1.md","ref":"contents/chapter6/6.2.0.example1.md","articles":[{"title":"Start Node","level":"2.6.1.1","depth":3,"path":"contents/chapter6/6.2.1.startnode.md","ref":"contents/chapter6/6.2.1.startnode.md","articles":[]},{"title":"Node 1","level":"2.6.1.2","depth":3,"path":"contents/chapter6/6.2.2.node1.md","ref":"contents/chapter6/6.2.2.node1.md","articles":[]},{"title":"Node 2a","level":"2.6.1.3","depth":3,"path":"contents/chapter6/6.2.3.node2a.md","ref":"contents/chapter6/6.2.3.node2a.md","articles":[]},{"title":"Node 2b","level":"2.6.1.4","depth":3,"path":"contents/chapter6/6.2.4.node2b.md","ref":"contents/chapter6/6.2.4.node2b.md","articles":[]},{"title":"Node 2c","level":"2.6.1.5","depth":3,"path":"contents/chapter6/6.2.5.node2c.md","ref":"contents/chapter6/6.2.5.node2c.md","articles":[]}]},"previous":{"title":"Inline","level":"2.5.1","depth":2,"path":"contents/chapter5/5.2.inline.md","ref":"contents/chapter5/5.2.inline.md","articles":[]},"dir":"ltr"},"config":{"plugins":["chapter-fold","chapter-headings","image-captions","fancybox","pageload-analytics"],"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"chapter-fold":{},"fancybox":{"helpers":{"buttons":{}}},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"pageload-analytics":{"token":"UA-132688385-1"},"chapter-headings":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"image-captions":{"variable_name":"_pictures"}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":11,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"contents/chapter2/2.0.overview.html#fig2.2.1","level":"2.2","list_caption":"Figure: The layers of the GI data model.","alt":"The layers of the GI data model.","nro":1,"url":"./imgs/entities.PNG","index":1,"caption_template":"Figure: _CAPTION_","label":"The layers of the GI data model.","attributes":{},"skip":false,"key":"2.2.1"},{"backlink":"contents/chapter2/2.2.topology.html#fig2.2.2.1","level":"2.2.2","list_caption":"Figure: Overview","alt":"Overview","nro":2,"url":"./imgs/topology.PNG","index":1,"caption_template":"Figure: _CAPTION_","label":"Overview","attributes":{},"skip":false,"key":"2.2.2.1"},{"backlink":"contents/chapter2/2.2.topology.html#fig2.2.2.2","level":"2.2.2","list_caption":"Figure: Topological hierarchy for polyline","alt":"Topological hierarchy for polyline","nro":3,"url":"./imgs/topo_hierarchy_pl.PNG","index":2,"caption_template":"Figure: _CAPTION_","label":"Topological hierarchy for polyline","attributes":{},"skip":false,"key":"2.2.2.2"},{"backlink":"contents/chapter2/2.2.topology.html#fig2.2.2.3","level":"2.2.2","list_caption":"Figure: Topological hierarchy for polygon","alt":"Topological hierarchy for polygon","nro":4,"url":"./imgs/topo_hierarchy_pg.PNG","index":3,"caption_template":"Figure: _CAPTION_","label":"Topological hierarchy for polygon","attributes":{},"skip":false,"key":"2.2.2.3"},{"backlink":"contents/chapter2/2.2.topology.html#fig2.2.2.4","level":"2.2.2","list_caption":"Figure: Welded polylines","alt":"Welded polylines","nro":5,"url":"./imgs/pl_welded.PNG","index":4,"caption_template":"Figure: _CAPTION_","label":"Welded polylines","attributes":{},"skip":false,"key":"2.2.2.4"},{"backlink":"contents/chapter2/2.2.topology.html#fig2.2.2.5","level":"2.2.2","list_caption":"Figure: Unwelded polylines","alt":"Unwelded polylines","nro":6,"url":"./imgs/pl_unwelded.PNG","index":5,"caption_template":"Figure: _CAPTION_","label":"Unwelded polylines","attributes":{},"skip":false,"key":"2.2.2.5"},{"backlink":"contents/chapter2/2.2.topology.html#fig2.2.2.6","level":"2.2.2","list_caption":"Figure: Welded polygons","alt":"Welded polygons","nro":7,"url":"./imgs/pg_welded.PNG","index":6,"caption_template":"Figure: _CAPTION_","label":"Welded polygons","attributes":{},"skip":false,"key":"2.2.2.6"},{"backlink":"contents/chapter2/2.2.topology.html#fig2.2.2.7","level":"2.2.2","list_caption":"Figure: Unwelded polygons","alt":"Unwelded polygons","nro":8,"url":"./imgs/pg_unwelded.PNG","index":7,"caption_template":"Figure: _CAPTION_","label":"Unwelded polygons","attributes":{},"skip":false,"key":"2.2.2.7"},{"backlink":"contents/chapter6/6.2.0.example1.html#fig2.6.1.1","level":"2.6.1","list_caption":"Figure: End Result","alt":"End Result","nro":9,"url":"./imgs/6.2.0-example1-overview.png","index":1,"caption_template":"Figure: _CAPTION_","label":"End Result","attributes":{},"skip":false,"key":"2.6.1.1"},{"backlink":"contents/chapter6/6.2.0.example1.html#fig2.6.1.2","level":"2.6.1","list_caption":"Figure: Flowchart","alt":"Flowchart","nro":10,"url":"./imgs/6.2.0-example1-flowchart.gif","index":2,"caption_template":"Figure: _CAPTION_","label":"Flowchart","attributes":{},"skip":false,"key":"2.6.1.2"},{"backlink":"contents/chapter6/6.2.1.startnode.html#fig2.6.1.1.1","level":"2.6.1.1","list_caption":"Figure: Navigation","alt":"Navigation","nro":11,"url":"./imgs/6.2.1-example1-startnode-navigation.gif","index":1,"caption_template":"Figure: _CAPTION_","label":"Navigation","attributes":{},"skip":false,"key":"2.6.1.1.1"},{"backlink":"contents/chapter6/6.2.1.startnode.html#fig2.6.1.1.2","level":"2.6.1.1","list_caption":"Figure: Parameter Values","alt":"Parameter Values","nro":12,"url":"./imgs/6.2.1-example1-startnode-parametervalues.png","index":2,"caption_template":"Figure: _CAPTION_","label":"Parameter Values","attributes":{},"skip":false,"key":"2.6.1.1.2"},{"backlink":"contents/chapter6/6.2.2.node1.html#fig2.6.1.2.1","level":"2.6.1.2","list_caption":"Figure: Result","alt":"Result","nro":13,"url":"./imgs/6.2.2-example1-node1-endresult.png","index":1,"caption_template":"Figure: _CAPTION_","label":"Result","attributes":{},"skip":false,"key":"2.6.1.2.1"},{"backlink":"contents/chapter6/6.2.2.node1.html#fig2.6.1.2.2","level":"2.6.1.2","list_caption":"Figure: Procedure","alt":"Procedure","nro":14,"url":"./imgs/6.2.2-example1-node1-procedure.png","index":2,"caption_template":"Figure: _CAPTION_","label":"Procedure","attributes":{},"skip":false,"key":"2.6.1.2.2"},{"backlink":"contents/chapter6/6.2.3.node2a.html#fig2.6.1.3.1","level":"2.6.1.3","list_caption":"Figure: Procedure","alt":"Procedure","nro":15,"url":"./imgs/6.2.3-example1-node2a-procedure.png","index":1,"caption_template":"Figure: _CAPTION_","label":"Procedure","attributes":{},"skip":false,"key":"2.6.1.3.1"},{"backlink":"contents/chapter6/6.2.4.node2b.html#fig2.6.1.4.1","level":"2.6.1.4","list_caption":"Figure: Procedure","alt":"Procedure","nro":16,"url":"./imgs/6.2.4-example1-node2b-procedure.png","index":1,"caption_template":"Figure: _CAPTION_","label":"Procedure","attributes":{},"skip":false,"key":"2.6.1.4.1"},{"backlink":"contents/chapter6/6.2.5.node2c.html#fig2.6.1.5.1","level":"2.6.1.5","list_caption":"Figure: Procedure","alt":"Procedure","nro":17,"url":"./imgs/6.2.5-example1-node2c-procedure.png","index":1,"caption_template":"Figure: _CAPTION_","label":"Procedure","attributes":{},"skip":false,"key":"2.6.1.5.1"},{"backlink":"contents/chapter6/6.2.5.node2c.html#fig2.6.1.5.2","level":"2.6.1.5","list_caption":"Figure: Variations","alt":"Variations","nro":18,"url":"./imgs/6.2.5-example1-node2c-variations.gif","index":2,"caption_template":"Figure: _CAPTION_","label":"Variations","attributes":{},"skip":false,"key":"2.6.1.5.2"},{"backlink":"contents/chapter6/6.3.0.example2.html#fig2.6.2.1","level":"2.6.2","list_caption":"Figure: End Result","alt":"End Result","nro":19,"url":"./imgs/6.3.0-example2-overview.png","index":1,"caption_template":"Figure: _CAPTION_","label":"End Result","attributes":{},"skip":false,"key":"2.6.2.1"},{"backlink":"contents/chapter6/6.3.0.example2.html#fig2.6.2.2","level":"2.6.2","list_caption":"Figure: Flowchart","alt":"Flowchart","nro":20,"url":"./imgs/6.3.0-example2-flowchart.gif","index":2,"caption_template":"Figure: _CAPTION_","label":"Flowchart","attributes":{},"skip":false,"key":"2.6.2.2"},{"backlink":"contents/chapter6/6.3.1.startnode.html#fig2.6.2.1.1","level":"2.6.2.1","list_caption":"Figure: Parameter Values","alt":"Parameter Values","nro":21,"url":"./imgs/6.3.1-example2-startnode-parametervalues.png","index":1,"caption_template":"Figure: _CAPTION_","label":"Parameter Values","attributes":{},"skip":false,"key":"2.6.2.1.1"},{"backlink":"contents/chapter6/6.3.2.node1.html#fig2.6.2.2.1","level":"2.6.2.2","list_caption":"Figure: Result","alt":"Result","nro":22,"url":"./imgs/6.2.2-example1-node1-endresult.png","index":1,"caption_template":"Figure: _CAPTION_","label":"Result","attributes":{},"skip":false,"key":"2.6.2.2.1"},{"backlink":"contents/chapter6/6.3.2.node1.html#fig2.6.2.2.2","level":"2.6.2.2","list_caption":"Figure: Procedure","alt":"Procedure","nro":23,"url":"./imgs/6.2.2-example1-node1-procedure.png","index":2,"caption_template":"Figure: _CAPTION_","label":"Procedure","attributes":{},"skip":false,"key":"2.6.2.2.2"},{"backlink":"contents/chapter6/6.3.4.node2.html#fig2.6.2.4.1","level":"2.6.2.4","list_caption":"Figure: Procedure","alt":"Procedure","nro":24,"url":"./imgs/6.3.4-example2-node2-procedure.png","index":1,"caption_template":"Figure: _CAPTION_","label":"Procedure","attributes":{},"skip":false,"key":"2.6.2.4.1"},{"backlink":"contents/chapter6/6.3.4.node2.html#fig2.6.2.4.2","level":"2.6.2.4","list_caption":"Figure: Variations","alt":"Variations","nro":25,"url":"./imgs/6.3.4-example2-node2-variations.gif","index":2,"caption_template":"Figure: _CAPTION_","label":"Variations","attributes":{},"skip":false,"key":"2.6.2.4.2"},{"backlink":"contents/chapter6/6.4.0.example3.html#fig2.6.3.1","level":"2.6.3","list_caption":"Figure: End Result","alt":"End Result","nro":26,"url":"./imgs/6.4.0-example3-overview.png","index":1,"caption_template":"Figure: _CAPTION_","label":"End Result","attributes":{},"skip":false,"key":"2.6.3.1"},{"backlink":"contents/chapter6/6.4.0.example3.html#fig2.6.3.2","level":"2.6.3","list_caption":"Figure: Flowchart","alt":"Flowchart","nro":27,"url":"./imgs/6.4.0-example3-flowchart.gif","index":2,"caption_template":"Figure: _CAPTION_","label":"Flowchart","attributes":{},"skip":false,"key":"2.6.3.2"},{"backlink":"contents/chapter6/6.4.1.startnode.html#fig2.6.3.1.1","level":"2.6.3.1","list_caption":"Figure: Parameter Values","alt":"Parameter Values","nro":28,"url":"./imgs/6.4.1-example3-startnode-parametervalues.png","index":1,"caption_template":"Figure: _CAPTION_","label":"Parameter Values","attributes":{},"skip":false,"key":"2.6.3.1.1"},{"backlink":"contents/chapter6/6.4.3.node1.html#fig2.6.3.3.1","level":"2.6.3.3","list_caption":"Figure: Result","alt":"Result","nro":29,"url":"./imgs/6.4.3-example3-node1-endresult.png","index":1,"caption_template":"Figure: _CAPTION_","label":"Result","attributes":{},"skip":false,"key":"2.6.3.3.1"},{"backlink":"contents/chapter6/6.4.3.node1.html#fig2.6.3.3.2","level":"2.6.3.3","list_caption":"Figure: Procedure","alt":"Procedure","nro":30,"url":"./imgs/6.4.3-example3-node1-procedure.png","index":2,"caption_template":"Figure: _CAPTION_","label":"Procedure","attributes":{},"skip":false,"key":"2.6.3.3.2"},{"backlink":"contents/chapter6/6.4.3.node1.html#fig2.6.3.3.3","level":"2.6.3.3","list_caption":"Figure: Checkerboard","alt":"Checkerboard","nro":31,"url":"./imgs/6.4.3-example3-node1-checkerboard.png","index":3,"caption_template":"Figure: _CAPTION_","label":"Checkerboard","attributes":{},"skip":false,"key":"2.6.3.3.3"},{"backlink":"contents/chapter6/6.4.3.node1.html#fig2.6.3.3.4","level":"2.6.3.3","list_caption":"Figure: i%2==0","alt":"i%2==0","nro":32,"url":"./imgs/6.4.3-example3-node1-i2even.png","index":4,"caption_template":"Figure: _CAPTION_","label":"i%2==0","attributes":{},"skip":false,"key":"2.6.3.3.4"},{"backlink":"contents/chapter6/6.4.3.node1.html#fig2.6.3.3.5","level":"2.6.3.3","list_caption":"Figure: i%2==1","alt":"i%2==1","nro":33,"url":"./imgs/6.4.3-example3-node1-i2odd.png","index":5,"caption_template":"Figure: _CAPTION_","label":"i%2==1","attributes":{},"skip":false,"key":"2.6.3.3.5"},{"backlink":"contents/chapter6/6.4.3.node1.html#fig2.6.3.3.6","level":"2.6.3.3","list_caption":"Figure: floor(i/10) % 2 == 0","alt":"floor(i/10) % 2 == 0","nro":34,"url":"./imgs/6.4.3-example3-node1-floori10.png","index":6,"caption_template":"Figure: _CAPTION_","label":"floor(i/10) % 2 == 0","attributes":{},"skip":false,"key":"2.6.3.3.6"},{"backlink":"contents/chapter6/6.4.3.node1.html#fig2.6.3.3.7","level":"2.6.3.3","list_caption":"Figure: floor(i/10) % 2 == 0 && i%2 == 1","alt":"floor(i/10) % 2 == 0 && i%2 == 1","nro":35,"url":"./imgs/6.4.3-example3-node1-and1.png","index":7,"caption_template":"Figure: _CAPTION_","label":"floor(i/10) % 2 == 0 && i%2 == 1","attributes":{},"skip":false,"key":"2.6.3.3.7"},{"backlink":"contents/chapter6/6.4.3.node1.html#fig2.6.3.3.8","level":"2.6.3.3","list_caption":"Figure: Final condition","alt":"Final condition","nro":36,"url":"./imgs/6.4.3-example3-node1-finalchecker.png","index":8,"caption_template":"Figure: _CAPTION_","label":"Final condition","attributes":{},"skip":false,"key":"2.6.3.3.8"},{"backlink":"contents/chapter6/6.4.4.node2.html#fig2.6.3.4.1","level":"2.6.3.4","list_caption":"Figure: Result","alt":"Result","nro":37,"url":"./imgs/6.4.4-example3-node2-endresult.png","index":1,"caption_template":"Figure: _CAPTION_","label":"Result","attributes":{},"skip":false,"key":"2.6.3.4.1"},{"backlink":"contents/chapter6/6.4.4.node2.html#fig2.6.3.4.2","level":"2.6.3.4","list_caption":"Figure: Procedure","alt":"Procedure","nro":38,"url":"./imgs/6.4.4-example3-node2-procedure.png","index":2,"caption_template":"Figure: _CAPTION_","label":"Procedure","attributes":{},"skip":false,"key":"2.6.3.4.2"}]},"title":"Möbius Modeller","gitbook":"*"},"file":{"path":"contents/chapter6/6.1.overview.md","mtime":"2019-01-21T02:44:48.880Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-21T02:47:14.126Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fancybox/jquery.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fancybox/jquery.mousewheel.pack.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fancybox/jquery.fancybox.pack.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fancybox/jquery.fancybox-buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fancybox/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-pageload-analytics/track.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
